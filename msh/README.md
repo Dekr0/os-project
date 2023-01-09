@@ -3,7 +3,7 @@
 ---
 
 - In this project, a mini shell was developed using C and common system calls in GNU C library.
-- `./msh` in command line to run the msh
+- `./msh` in command line to run `msh`
   - `make` in command line if `msh` is not compiled from source code
 
 ---
