@@ -1,0 +1,1337 @@
+monitor: [WAIT]
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1 j2
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1 j2
+         [RUN]
+         [IDLE]
+...
+monitor: [WAIT] j1 j2
+         [RUN]
+         [IDLE]
+...
+job: j1 (tid= 140432746878720, iter=1, time= 100 msec)
+job: j3 (tid= 140432730093312, iter=1, time= 100 msec)
+job: j2 (tid= 140432738486016, iter=1, time= 151 msec)
+monitor: [WAIT] j1
+         [RUN] j5
+         [IDLE] j2 j3 j4
+...
+job: j4 (tid= 140432721700608, iter=1, time= 151 msec)
+job: j5 (tid= 140432713307904, iter=1, time= 202 msec)
+job: j3 (tid= 140432730093312, iter=2, time= 200 msec)
+job: j1 (tid= 140432746878720, iter=2, time= 256 msec)
+job: j5 (tid= 140432713307904, iter=2, time= 307 msec)
+job: j2 (tid= 140432738486016, iter=2, time= 307 msec)
+job: j1 (tid= 140432746878720, iter=3, time= 361 msec)
+monitor: [WAIT]
+         [RUN] j5
+         [IDLE] j1 j2 j3 j4
+...
+job: j5 (tid= 140432713307904, iter=3, time= 412 msec)
+job: j3 (tid= 140432730093312, iter=3, time= 301 msec)
+job: j1 (tid= 140432746878720, iter=4, time= 467 msec)
+job: j2 (tid= 140432738486016, iter=3, time= 463 msec)
+job: j1 (tid= 140432746878720, iter=5, time= 572 msec)
+monitor: [WAIT] j4 j5
+         [RUN]
+         [IDLE] j1 j2 j3
+...
+job: j2 (tid= 140432738486016, iter=4, time= 563 msec)
+job: j1 (tid= 140432746878720, iter=6, time= 723 msec)
+monitor: [WAIT] j3 j5
+         [RUN] j4
+         [IDLE] j1 j2
+...
+job: j4 (tid= 140432721700608, iter=2, time= 563 msec)
+job: j3 (tid= 140432730093312, iter=4, time= 552 msec)
+job: j5 (tid= 140432713307904, iter=4, time= 823 msec)
+job: j4 (tid= 140432721700608, iter=3, time= 663 msec)
+job: j2 (tid= 140432738486016, iter=5, time= 714 msec)
+job: j1 (tid= 140432746878720, iter=7, time= 925 msec)
+job: j3 (tid= 140432730093312, iter=5, time= 657 msec)
+job: j2 (tid= 140432738486016, iter=6, time= 819 msec)
+job: j1 (tid= 140432746878720, iter=8, time= 1030 msec)
+monitor: [WAIT] j2
+         [RUN]
+         [IDLE] j1 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=5, time= 923 msec)
+job: j2 (tid= 140432738486016, iter=7, time= 970 msec)
+job: j1 (tid= 140432746878720, iter=9, time= 1181 msec)
+job: j4 (tid= 140432721700608, iter=4, time= 814 msec)
+job: j3 (tid= 140432730093312, iter=6, time= 859 msec)
+job: j1 (tid= 140432746878720, iter=10, time= 1281 msec)
+job: j2 (tid= 140432738486016, iter=8, time= 1172 msec)
+job: j1 (tid= 140432746878720, iter=11, time= 1386 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j3 (tid= 140432730093312, iter=7, time= 959 msec)
+job: j5 (tid= 140432713307904, iter=6, time= 1023 msec)
+job: j1 (tid= 140432746878720, iter=12, time= 1536 msec)
+job: j4 (tid= 140432721700608, iter=5, time= 965 msec)
+monitor: [WAIT] j1 j3
+         [RUN] j2
+         [IDLE] j4 j5
+...
+job: j2 (tid= 140432738486016, iter=9, time= 1373 msec)
+job: j5 (tid= 140432713307904, iter=7, time= 1123 msec)
+job: j3 (tid= 140432730093312, iter=8, time= 1115 msec)
+job: j1 (tid= 140432746878720, iter=13, time= 1691 msec)
+monitor: [WAIT] j2 j3
+         [RUN] j4
+         [IDLE] j1 j5
+...
+job: j4 (tid= 140432721700608, iter=6, time= 1171 msec)
+job: j2 (tid= 140432738486016, iter=10, time= 1579 msec)
+job: j5 (tid= 140432713307904, iter=8, time= 1223 msec)
+job: j3 (tid= 140432730093312, iter=9, time= 1316 msec)
+job: j1 (tid= 140432746878720, iter=14, time= 1841 msec)
+job: j2 (tid= 140432738486016, iter=11, time= 1684 msec)
+job: j1 (tid= 140432746878720, iter=15, time= 1947 msec)
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+job: j2 (tid= 140432738486016, iter=12, time= 1784 msec)
+job: j4 (tid= 140432721700608, iter=7, time= 1477 msec)
+job: j1 (tid= 140432746878720, iter=16, time= 2098 msec)
+job: j3 (tid= 140432730093312, iter=10, time= 1467 msec)
+job: j2 (tid= 140432738486016, iter=13, time= 1889 msec)
+monitor: [WAIT] j1 j5
+         [RUN]
+         [IDLE] j2 j3 j4
+...
+job: j3 (tid= 140432730093312, iter=11, time= 1568 msec)
+job: j5 (tid= 140432713307904, iter=9, time= 1529 msec)
+job: j2 (tid= 140432738486016, iter=14, time= 2040 msec)
+job: j4 (tid= 140432721700608, iter=8, time= 1628 msec)
+job: j1 (tid= 140432746878720, iter=17, time= 2355 msec)
+job: j3 (tid= 140432730093312, iter=12, time= 1673 msec)
+job: j2 (tid= 140432738486016, iter=15, time= 2146 msec)
+job: j1 (tid= 140432746878720, iter=18, time= 2461 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j3 (tid= 140432730093312, iter=13, time= 1773 msec)
+job: j5 (tid= 140432713307904, iter=10, time= 1629 msec)
+job: j4 (tid= 140432721700608, iter=9, time= 1779 msec)
+job: j2 (tid= 140432738486016, iter=16, time= 2297 msec)
+job: j1 (tid= 140432746878720, iter=19, time= 2662 msec)
+job: j3 (tid= 140432730093312, iter=14, time= 1878 msec)
+job: j2 (tid= 140432738486016, iter=17, time= 2402 msec)
+job: j1 (tid= 140432746878720, iter=20, time= 2768 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j3 (tid= 140432730093312, iter=15, time= 1978 msec)
+job: j5 (tid= 140432713307904, iter=11, time= 1729 msec)
+job: j2 (tid= 140432738486016, iter=18, time= 2553 msec)
+job: j4 (tid= 140432721700608, iter=10, time= 1930 msec)
+job: j3 (tid= 140432730093312, iter=16, time= 2083 msec)
+job: j2 (tid= 140432738486016, iter=19, time= 2658 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: job: j5 (tid= 140432713307904, iter=12, time= 1829 msec)
+j3 (tid= 140432730093312, iter=17, time= 2183 msec)
+job: j2 (tid= 140432738486016, iter=20, time= 2809 msec)
+job: j4 (tid= 140432721700608, iter=11, time= 2081 msec)
+job: j3 (tid= 140432730093312, iter=18, time= 2288 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j3 (tid= 140432730093312job: , iter=j5 (tid= 19, time= 2389 msec)
+140432713307904, iter=13, time= 1930 msec)
+job: j4 (tid= 140432721700608, iter=12, time= 2232 msec)
+job: j3 (tid= 140432730093312, iter=20, time= 2494 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT] j5
+         [RUN]
+         [IDLE] j1 j2 j3 j4
+...
+job: j5 (tid= 140432713307904, iter=14, time= 2030 msec)
+job: j4 (tid= 140432721700608, iter=13, time= 2383 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=15, time= 2130 msec)
+job: j4 (tid= 140432721700608, iter=14, time= 2534 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=16, time= 2230 msec)
+job: j4 (tid= 140432721700608, iter=15, time= 2685 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=17, time= 2330 msec)
+job: j4 (tid= 140432721700608, iter=16, time= 2836 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=18, time= 2430 msec)
+job: j4 (tid= 140432721700608, iter=17, time= 2987 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+job: j5 (tid= 140432713307904, iter=19, time= 2530 msec)
+job: j4 (tid= 140432721700608, iter=18, time= 3138 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT] j5
+         [RUN]
+         [IDLE] j1 j2 j3 j4
+...
+job: j5 (tid= 140432713307904, iter=20, time= 2631 msec)
+job: j4 (tid= 140432721700608, iter=19, time= 3289 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+monitor: [WAIT] j4
+         [RUN]
+         [IDLE] j1 j2 j3 j5
+...
+job: j4 (tid= 140432721700608, iter=20, time= 3394 msec)
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+monitor: [WAIT]
+         [RUN]
+         [IDLE] j1 j2 j3 j4 j5
+...
+
+System Jobs
+[0] j1 (IDLE, runTime= 50, idleTime= 100 msec):
+        (tid= 140432746878720)
+        A: (need= 1, held= 0)
+        B: (need= 1, held= 0)
+(RUN: 20 times, WAIT: 1766 msec)
+
+[1] j2 (IDLE, runTime= 50, idleTime= 100 msec):
+        (tid= 140432738486016)
+        B: (need= 1, held= 0)
+        C: (need= 1, held= 0)
+(RUN: 20 times, WAIT: 1806 msec)
+
+[2] j3 (IDLE, runTime= 50, idleTime= 100 msec):
+        (tid= 140432730093312)
+        C: (need= 1, held= 0)
+        D: (need= 1, held= 0)
+(RUN: 20 times, WAIT: 1492 msec)
+
+[3] j4 (IDLE, runTime= 50, idleTime= 100 msec):
+        (tid= 140432721700608)
+        D: (need= 1, held= 0)
+        E: (need= 1, held= 0)
+(RUN: 20 times, WAIT: 2240 msec)
+
+[4] j5 (IDLE, runTime= 50, idleTime= 100 msec):
+        (tid= 140432713307904)
+        A: (need= 1, held= 0)
+        E: (need= 1, held= 0)
+(RUN: 20 times, WAIT: 1628 msec)
+
+Running time= 4603msec
